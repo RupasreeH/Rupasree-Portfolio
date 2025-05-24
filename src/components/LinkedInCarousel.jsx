@@ -37,7 +37,7 @@ const LinkedInCarousel = ({
                 <h3 className="text-xl font-semibold text-white-800">
                   {rec.name}
                 </h3>
-                <p className="text-sm text-white-500">{rec.title}</p>
+                <p className="text-sm text-gray-500">{rec.title}</p>
                 <p className="mt-3 text-white-700 text-base">
                   {rec.recommendation}
                 </p>
@@ -55,13 +55,13 @@ const LinkedInCarousel = ({
               (current - 1 + recommendations.length) % recommendations.length
             )
           }
-          className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600"
+          className="text-white p-2 rounded-full"
         >
           <FaArrowCircleLeft />
         </button>
         <button
           onClick={() => setCurrent((current + 1) % recommendations.length)}
-          className="bg-gray-800 text-white p-2 rounded-full hover:bg-gray-600"
+          className="text-white p-2 rounded-full"
         >
           <FaArrowCircleRight />
         </button>
