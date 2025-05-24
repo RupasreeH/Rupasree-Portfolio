@@ -74,9 +74,9 @@ export const Recommendations = () => {
       className="min-h-screen flex items-center justify-center py-20"
     >
       <RevealOnScroll>
-        <div className="max-w-3xl mx-auto px-4">
+        <div className="max-w-screen sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl 2xl:max-w-3xl mx-auto px-4">
           <h2 className="text-3xl font-bold text-center text-blue-500 mb-8">
-            What People Say About Me ?
+            What people say about me ?
           </h2>
 
           <LinkedInCarousel recommendations={recommendations} />
