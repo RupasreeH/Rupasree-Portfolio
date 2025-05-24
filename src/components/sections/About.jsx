@@ -142,6 +142,16 @@ export const About = () => {
                   <strong>Outstanding Academic Achievement Award</strong> -
                   University of Arkansas Little Rock (2025)
                 </li>
+                <li>
+                  <strong>
+                    Distinguished and Consistent Contribution of the Year
+                  </strong>{" "}
+                  – Univva business solutions Pvt. Ltd (2022, 2019)
+                </li>
+                <li>
+                  <strong>Promising Employee of the year</strong> - Univva
+                  business solutions Pvt. Ltd (2017, 2016)
+                </li>
               </ul>
             </div>
           </div>

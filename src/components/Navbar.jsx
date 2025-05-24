@@ -46,6 +46,13 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
               Experience{" "}
             </a>
             <a
+              href="#recommendations"
+              className="text-gray-300 hove:text-white transition-colors"
+            >
+              {" "}
+              What people say?{" "}
+            </a>
+            <a
               href="#contact"
               className="text-gray-300 hove:text-white transition-colors"
             >

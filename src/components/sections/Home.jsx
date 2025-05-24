@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 import profile from "../../assets/profile.jpeg";
+import dp from "../../assets/dp.jpg";
 export const Home = () => {
   return (
     <section
@@ -10,7 +11,7 @@ export const Home = () => {
         <div className="text-center z-10 px-4">
           <div className="flex justify-center mt-20">
             <img
-              src={profile}
+              src={dp}
               alt="Rupasree Holegoudru"
               className="w-full max-w-sm h-auto mx-auto p-1 rounded-full object-contain ring-2 ring-gray-300 dark:ring-gray-500"
             />
